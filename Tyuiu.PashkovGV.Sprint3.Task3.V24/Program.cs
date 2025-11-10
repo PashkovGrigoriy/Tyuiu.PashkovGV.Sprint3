@@ -18,5 +18,4 @@ namespace Tyuiu.PashkovGV.Sprint3.Task3.V24
             Console.ReadKey();
         }
     }
-    }
 }
