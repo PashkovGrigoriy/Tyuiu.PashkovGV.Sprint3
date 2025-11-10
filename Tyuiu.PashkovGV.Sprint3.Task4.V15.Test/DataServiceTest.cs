@@ -11,7 +11,7 @@ namespace Tyuiu.PashkovGV.Sprint3.Task4.V15.Test
             int k = 5;
             int v = 1;
             var res = ds.Calculate(k, v);
-            Assert.AreEqual(3.378, res);
+            Assert.AreEqual(623.499, res);
         }
     }
 }

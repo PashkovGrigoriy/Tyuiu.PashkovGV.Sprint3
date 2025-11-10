@@ -14,7 +14,7 @@ namespace Tyuiu.PashkovGV.Sprint3.Task4.V15.Lib
                 {
                     continue;
                 }
-                res = res * (((Math.Sin(x) + x)/x)+0/75);
+                res = res * (((Math.Sin(x) + x)/x)+0.75);
             }
             return Math.Round(res, 3);
         }
