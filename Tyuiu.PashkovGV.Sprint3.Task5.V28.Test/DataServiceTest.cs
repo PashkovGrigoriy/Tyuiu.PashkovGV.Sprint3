@@ -9,8 +9,8 @@ namespace Tyuiu.PashkovGV.Sprint3.Task5.V28.Test
         {
             DataService ds = new DataService();
             int i = 1;
-            int i2 = 3;
-            int j = 1;
+            int i2 = 1;
+            int j = 3;
             int j2 = 12;
             int x = 2;
             var res = ds.GetSumSumSeries(x,i,i2,j,j2);

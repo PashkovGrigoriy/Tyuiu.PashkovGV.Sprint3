@@ -10,7 +10,7 @@ namespace Tyuiu.PashkovGV.Sprint3.Task5.V28.Lib
             {
                 for (int j = startValue2; j <= stopValue2; j++)
                 {
-                    res = res + (Math.Pow(startValue2, x) / Math.Sin(startValue2));
+                    res = res + ((Math.Pow(j, x)) / (Math.Sin(j)));
                 }
             }
             return Math.Round(res, 3);
