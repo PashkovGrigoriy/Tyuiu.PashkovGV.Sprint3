@@ -6,13 +6,14 @@ namespace Tyuiu.PashkovGV.Sprint3.Task2.V14.Lib
         public double GetMultiplySeries(int value, int startValue, int stopValue)
         {
             double res = 1.0;
-            
+            double x = value;
+            double y = startValue;
             do
             {
-                res = res * (Math.Pow((value / startValue), 3));
-                startValue++;
+                res = res * (Math.Pow((x / y), 3));
+                y++;
             }
-            while (startValue <= stopValue);
+            while (y <= stopValue);
             return Math.Round(res, 3);
         }
     }

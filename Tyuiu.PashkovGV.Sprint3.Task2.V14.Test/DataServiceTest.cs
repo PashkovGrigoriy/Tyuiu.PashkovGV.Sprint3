@@ -12,7 +12,7 @@ namespace Tyuiu.PashkovGV.Sprint3.Task2.V14.Test
             int v = 1;
             int d = 6;
             var res = ds.GetMultiplySeries(k, v, d);
-            Assert.AreEqual(7.5, res);
+            Assert.AreEqual(10220.275, res);
         }
     }
 }
